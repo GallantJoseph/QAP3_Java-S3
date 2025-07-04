@@ -1,7 +1,7 @@
 package Problem2;
 
 /*
-    Description: QAP 3 - Movable Class
+    Description: QAP 3 - Movable Class, extends Point
     Author: Joseph Gallant
     Dates: July 3, 2025 - July 4, 2025
  */
