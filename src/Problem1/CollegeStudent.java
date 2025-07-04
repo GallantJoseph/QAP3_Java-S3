@@ -3,7 +3,7 @@ package Problem1;
 /*
     Description: QAP 3 - CollegeStudent Class, extends Student
     Author: Joseph Gallant
-    Dates: July 3, 2025
+    Date: July 3, 2025
  */
 
 public class CollegeStudent extends Student {

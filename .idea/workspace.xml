@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a948f0b4-b8a4-4fed-93f2-a08758c2afe3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QAP3_Java-S3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem1/CollegeStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem1/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem1/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem2/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem2/MovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem2/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem1/CollegeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem1/CollegeStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem1/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem1/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
