@@ -12,24 +12,23 @@ public class Ellipse extends Shape {
     private float majRad;
 
     // Constructors
-    public Ellipse(String name, float radA, float radB) {
+    public Ellipse(String name, float minRad, float majRad) {
         super(name);
 
         // Validate the radius values (no negative)
-        if (radA >= 0 && radB >= 0) {
+        if (minRad >= 0 && majRad >= 0) {
             // Assign the minor radius to the smallest rad value and the major radius to the largest rad value
             // If they are equal, either way will work, but we keen them in the same order, in this situation.
-            if (radA <= radB) {
-                this.minRad = radA;
-                this.majRad = radB;
+            if (minRad <= majRad) {
+                this.minRad = minRad;
+                this.majRad = majRad;
             } else {
-                this.minRad = radB;
-                this.majRad = radA;
+                this.minRad = majRad;
+                this.majRad = minRad;
             }
         } else {
             throw new RuntimeException("Error: Invalid radius value. Must be positive.");
         }
-
     }
 
     public Ellipse(String name) {
