@@ -3,7 +3,7 @@ package Problem3;
 /*
     Description: QAP 3 - Shape Class, abstract
     Author: Joseph Gallant
-    Date: July 4, 2025
+    Dates: July 4, 2025 - July 7, 2025
  */
 
 public abstract class Shape {
@@ -16,6 +16,15 @@ public abstract class Shape {
 
     public Shape() {
         this.name = "Undefined";
+    }
+
+    // Getters and Setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public abstract double getPerimeter();
