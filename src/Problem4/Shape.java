@@ -3,7 +3,7 @@ package Problem4;
 /*
     Description: QAP 3 - Shape Class, abstract, implements Scalable
     Author: Joseph Gallant
-    Dates: July 4, 2025 - July 7, 2025
+    Dates: July 4, 2025 - July 8, 2025
  */
 
 public abstract class Shape implements Scalable {
@@ -33,5 +33,5 @@ public abstract class Shape implements Scalable {
     @Override
     public String toString() {
         return String.format("Name: %s, Perimeter: %.2f, Area: %.2f", name, getPerimeter(), getArea());
-    };
+    }
 }

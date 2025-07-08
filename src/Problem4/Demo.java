@@ -3,7 +3,7 @@ package Problem4;
 /*
     Description: QAP 3 - Demo Class
     Author: Joseph Gallant
-    Date: July 4, 2025
+    Dates: July 4, 2025 - July 8, 2025
  */
 
 import java.util.ArrayList;
@@ -45,7 +45,7 @@ public class Demo {
             for (Scalable scalable : scalables) {
                 System.out.println(scalable);
             }
-        } catch (RuntimeException e) {
+        } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
     }

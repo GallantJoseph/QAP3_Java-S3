@@ -27,7 +27,7 @@ public class Ellipse extends Shape {
                 this.majRad = minRad;
             }
         } else {
-            throw new RuntimeException("Error: Invalid radius value. Must be positive.");
+            throw new IllegalArgumentException("Error: Invalid radius value. Must be positive.");
         }
     }
 

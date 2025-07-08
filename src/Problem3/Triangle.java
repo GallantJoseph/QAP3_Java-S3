@@ -3,7 +3,7 @@ package Problem3;
 /*
     Description: QAP 3 - Triangle Class, extends Shape
     Author: Joseph Gallant
-    Date: July 4, 2025
+    Dates: July 4, 2025 - July 8, 2025
  */
 
 public class Triangle extends Shape {
@@ -21,7 +21,7 @@ public class Triangle extends Shape {
             this.side2 = side2;
             this.side3 = side3;
         } else {
-            throw new RuntimeException("Error: Invalid triangle side(s).");
+            throw new IllegalArgumentException("Error: Invalid triangle side(s).");
         }
     }
 

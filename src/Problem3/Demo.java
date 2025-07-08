@@ -3,7 +3,7 @@ package Problem3;
 /*
     Description: QAP 3 - Demo Class
     Author: Joseph Gallant
-    Date: July 4, 2025
+    Dates: July 4, 2025 - July 8, 2025
  */
 
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ public class Demo {
             for (Shape shape : shapes) {
                 System.out.println(shape);
             }
-        } catch (RuntimeException e) {
+        } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
     }
