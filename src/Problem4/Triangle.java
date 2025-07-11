@@ -12,7 +12,7 @@ public class Triangle extends Shape {
     private float side3;
 
     // Constructors
-    public Triangle(String name, float side1, float side2, float side3) {
+    public Triangle(String name, float side1, float side2, float side3) throws IllegalArgumentException {
         super(name);
 
         // Validate the side values

@@ -12,7 +12,7 @@ public class Ellipse extends Shape {
     private float majRad;
 
     // Constructors
-    public Ellipse(String name, float minRad, float majRad) {
+    public Ellipse(String name, float minRad, float majRad) throws IllegalArgumentException {
         super(name);
 
         // Validate the radius values (no negative)
