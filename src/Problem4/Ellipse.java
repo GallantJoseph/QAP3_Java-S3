@@ -41,14 +41,21 @@ public class Ellipse extends Shape {
 
     @Override
     public double getPerimeter() {
-        double part1 = 2 * (minRad * minRad + majRad * majRad);
-        double part2 = Math.pow (minRad - majRad, 2) / 2;
+        // If the Ellipse is not a Circle, use the Ellipse formula,
+        // otherwise, use the Circle formula
+        if (minRad != majRad) {
+            double part1 = 2 * (minRad * minRad + majRad * majRad);
+            double part2 = Math.pow (minRad - majRad, 2) / 2;
 
-        return Math.PI * Math.sqrt(part1 - part2);
+            return Math.PI * Math.sqrt(part1 - part2);
+        } else {
+            return 2 * Math.PI * minRad;
+        }
     }
 
     @Override
     public double getArea() {
+        // Works for Ellipses and Circles
         return Math.PI * minRad * majRad;
     }
 
