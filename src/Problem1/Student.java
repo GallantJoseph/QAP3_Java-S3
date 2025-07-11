@@ -8,15 +8,13 @@ package Problem1;
 
 public class Student extends Person{
     // Attributes
-    protected String myIdNum;    // Student Id Number
-    protected double myGPA;      // grade point average
+    protected String myIdNum;    // Student ID Number
+    protected double myGPA;      // Grade Point Average
 
     // Constructor
     public Student(String name, int age, String gender, String idNum, double gpa)  {
-        // use the super class’ constructor
         super(name, age, gender);
 
-        // initialize what’s new to Student
         myIdNum = idNum;
         myGPA = gpa;
     }

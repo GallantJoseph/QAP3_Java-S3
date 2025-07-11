@@ -8,9 +8,9 @@ package Problem1;
 
 public class Person {
     // Attributes
-    protected String myName ;   // name of the person
-    protected int myAge;        // person’s age
-    protected String myGender;  // "M” for male, "F” for female
+    protected String myName;
+    protected int myAge;
+    protected String myGender;  // "M” for Male, "F” for Female
 
     // Constructor
     public Person(String name, int age, String gender)  {
