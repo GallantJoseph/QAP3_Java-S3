@@ -45,6 +45,9 @@ public class Demo {
             for (Scalable scalable : scalables) {
                 System.out.println(scalable);
             }
+
+            System.out.println("\nExample of bad arguments used for a Triangle (side1=0, side2=2, side3=3):");
+            Triangle badTriangle = new Triangle("badTriangle", 0, 2,3);
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
