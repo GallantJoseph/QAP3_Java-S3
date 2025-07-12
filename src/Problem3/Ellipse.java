@@ -31,14 +31,6 @@ public class Ellipse extends Shape {
         }
     }
 
-    public Ellipse(String name) {
-        super(name);
-    }
-
-    public Ellipse() {
-        super();
-    }
-
     @Override
     public double getPerimeter() {
         // If the Ellipse is not a Circle, use the Ellipse formula,

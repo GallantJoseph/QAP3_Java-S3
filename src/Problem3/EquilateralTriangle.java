@@ -11,12 +11,4 @@ public class EquilateralTriangle extends Triangle {
     public EquilateralTriangle(String name, float side) {
         super(name, side, side, side);
     }
-
-    public EquilateralTriangle(String name) {
-        super(name);
-    }
-
-    public EquilateralTriangle() {
-        super();
-    }
 }

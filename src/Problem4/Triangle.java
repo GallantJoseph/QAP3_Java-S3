@@ -25,14 +25,6 @@ public class Triangle extends Shape {
         }
     }
 
-    public Triangle(String name) {
-        super(name);
-    }
-
-    public Triangle() {
-        super();
-    }
-
     @Override
     public double getPerimeter() {
         return this.side1 + this.side2 + this.side3;

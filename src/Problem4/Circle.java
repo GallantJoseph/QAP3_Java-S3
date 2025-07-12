@@ -11,12 +11,4 @@ public class Circle extends Ellipse {
     public Circle(String name, float radius) {
         super(name, radius, radius);
     }
-
-    public Circle(String name) {
-        super(name);
-    }
-
-    public Circle() {
-        super();
-    }
 }
