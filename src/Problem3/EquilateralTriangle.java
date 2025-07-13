@@ -12,7 +12,7 @@ public class EquilateralTriangle extends Triangle {
         super(name, side, side, side);
     }
 
-    public float getSide3() {
+    public float getSide() {
         return super.getSide1();
     }
 }
