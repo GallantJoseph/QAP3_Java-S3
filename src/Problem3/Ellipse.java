@@ -31,6 +31,14 @@ public class Ellipse extends Shape {
         }
     }
 
+    public double getMinRad(){
+        return minRad;
+    }
+
+    public double getMajRad(){
+        return majRad;
+    }
+
     @Override
     public double getPerimeter() {
         // If the Ellipse is not a Circle, use the Ellipse formula,

@@ -25,6 +25,18 @@ public class Triangle extends Shape {
         }
     }
 
+    public float getSide1() {
+        return side1;
+    }
+
+    public float getSide2() {
+        return side2;
+    }
+
+    public float getSide3() {
+        return side3;
+    }
+
     @Override
     public double getPerimeter() {
         return this.side1 + this.side2 + this.side3;

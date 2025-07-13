@@ -11,4 +11,8 @@ public class Circle extends Ellipse {
     public Circle(String name, float radius) {
         super(name, radius, radius);
     }
+
+    public double getRadius(){
+        return super.getMinRad();
+    }
 }
